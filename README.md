@@ -1,27 +1,16 @@
-# churchwebsitetemplate
-The Church Website Template is a responsive website designed specifically for churches and ministry organizations. The goal was to create a professional, welcoming online presence that helps churches communicate service information, events, ministries, and contact details while remaining easy to navigate on both desktop and mobile devices.
+# React + Vite
 
-Technologies Used:
-* HTML
-* CSS
-* JavaScript
-* Responsive Design
-* Mobile First
-* UI/UX Design
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Project Goal
-Many small and medium-sized churches struggle with outdated websites that are difficult to update and difficult for visitors to navigate. This project was created as a modern template that churches could adapt to quickly establish a professional web presence and provide visitors with the information they need.
+Currently, two official plugins are available:
 
-Key Features
-* Responsive design optimized for desktop, tablet, and mobile devices
-* Homepage designed to highlight church identity and mission
-* Service times and location information
-* Events and ministry information sections
-* Contact forms and visitor-friendly navigation
-* Modern layout focused on accessibility and usability
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Technical Challenges
-A major challenge was designing a layout that balanced visual appeal with usability. Church websites often serve visitors with varying levels of technical experience, so navigation and information architecture needed to remain intuitive while still presenting a modern appearance. Additional attention was given to responsive behavior across different screen sizes.
+## React Compiler
 
-What I Learned
-This project strengthened my skills in responsive web design, front-end development, and user experience design. It reinforced the importance of designing websites around user goals and business requirements while ensuring consistent performance across devices and screen sizes.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
